@@ -9,5 +9,5 @@ changeBtn.addEventListener("click", (event) => {
 document.body.style.backgroundColor = randomColor;
 document.body.style.transition = '250ms';
 
-currentColor.textContent = randomColor;
+currentColor.textContent = `Сейчас цвет ${randomColor}`;
 })
